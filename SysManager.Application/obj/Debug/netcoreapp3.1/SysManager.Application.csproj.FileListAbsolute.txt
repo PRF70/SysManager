@@ -1,0 +1,10 @@
+e:\Estudo\SysManager\SysManager.Application\bin\Debug\netcoreapp3.1\SysManager.Application.deps.json
+e:\Estudo\SysManager\SysManager.Application\bin\Debug\netcoreapp3.1\SysManager.Application.dll
+e:\Estudo\SysManager\SysManager.Application\bin\Debug\netcoreapp3.1\SysManager.Application.pdb
+e:\Estudo\SysManager\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.csproj.AssemblyReference.cache
+e:\Estudo\SysManager\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.GeneratedMSBuildEditorConfig.editorconfig
+e:\Estudo\SysManager\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.AssemblyInfoInputs.cache
+e:\Estudo\SysManager\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.AssemblyInfo.cs
+e:\Estudo\SysManager\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.csproj.CoreCompileInputs.cache
+e:\Estudo\SysManager\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.dll
+e:\Estudo\SysManager\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.pdb
