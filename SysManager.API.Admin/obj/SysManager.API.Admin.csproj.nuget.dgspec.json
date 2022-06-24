@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\Estudo\\SysManager\\SysManager.API.Admin\\SysManager.API.Admin.csproj": {}
+    "E:\\Estudo\\SysManager\\SysManager.API.Admin\\SysManager.API.Admin.csproj": {}
   },
   "projects": {
-    "e:\\Estudo\\SysManager\\SysManager.API.Admin\\SysManager.API.Admin.csproj": {
+    "E:\\Estudo\\SysManager\\SysManager.API.Admin\\SysManager.API.Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Estudo\\SysManager\\SysManager.API.Admin\\SysManager.API.Admin.csproj",
+        "projectUniqueName": "E:\\Estudo\\SysManager\\SysManager.API.Admin\\SysManager.API.Admin.csproj",
         "projectName": "SysManager.API.Admin",
-        "projectPath": "e:\\Estudo\\SysManager\\SysManager.API.Admin\\SysManager.API.Admin.csproj",
+        "projectPath": "E:\\Estudo\\SysManager\\SysManager.API.Admin\\SysManager.API.Admin.csproj",
         "packagesPath": "D:\\Users\\Paulo.CASA\\.nuget\\packages\\",
-        "outputPath": "e:\\Estudo\\SysManager\\SysManager.API.Admin\\obj\\",
+        "outputPath": "E:\\Estudo\\SysManager\\SysManager.API.Admin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "e:\\Estudo\\SysManager\\SysManager.Application\\SysManager.Application.csproj": {
-                "projectPath": "e:\\Estudo\\SysManager\\SysManager.Application\\SysManager.Application.csproj"
+              "E:\\Estudo\\SysManager\\SysManager.Application\\SysManager.Application.csproj": {
+                "projectPath": "E:\\Estudo\\SysManager\\SysManager.Application\\SysManager.Application.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "e:\\Estudo\\SysManager\\SysManager.Application\\SysManager.Application.csproj": {
+    "E:\\Estudo\\SysManager\\SysManager.Application\\SysManager.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Estudo\\SysManager\\SysManager.Application\\SysManager.Application.csproj",
+        "projectUniqueName": "E:\\Estudo\\SysManager\\SysManager.Application\\SysManager.Application.csproj",
         "projectName": "SysManager.Application",
-        "projectPath": "e:\\Estudo\\SysManager\\SysManager.Application\\SysManager.Application.csproj",
+        "projectPath": "E:\\Estudo\\SysManager\\SysManager.Application\\SysManager.Application.csproj",
         "packagesPath": "D:\\Users\\Paulo.CASA\\.nuget\\packages\\",
-        "outputPath": "e:\\Estudo\\SysManager\\SysManager.Application\\obj\\",
+        "outputPath": "E:\\Estudo\\SysManager\\SysManager.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -108,6 +108,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
