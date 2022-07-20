@@ -19,16 +19,22 @@ namespace SysManager.API.Admin.Controllers
         [HttpPost("create-account")]
         public async Task<IActionResult> Post([FromBody] UserPostRequest request)
         {
-            Console.WriteLine("Inicio do processo");
             var response = await _userService.PostAsync(request);
             return Utils.Convert(response);
         }
-        [HttpPost("login")]
-        public async Task<IActionResult> PostLogin([FromBody] UserPostRequest request)
-        {
-            Console.WriteLine("Inicio do processo 2");
-            return Utils.Convert(new ResultData(false));
 
+        [HttpPut("recovery-account")]
+        public async Task<IActionResult> PutAsync([FromBody] UserPutRequest request)
+        {
+            var response = await _userService.PutAsync(request);
+            return Utils.Convert(response);
+        }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> PostLogin([FromBody] UserPostLoginRequest request)
+        {
+            var response = await _userService.PostLoginAsync(request);
+            return Utils.Convert(response);
         }
 
     }

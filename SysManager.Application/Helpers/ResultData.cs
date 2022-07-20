@@ -4,20 +4,14 @@ using System.Text;
 
 namespace SysManager.Application.Helpers
 {
-        public class ResultData
+    public class ResultData
+    {
+        public ResultData(object _data, bool _success)
         {
-            public ResultData(bool _succes)
-            {
-                this.Success = _succes;
-            }
-            public bool Success { get; set; }
+            this.Success = _success;
+            this.Data = _data;
         }
-        public class ResultData<T> : ResultData
-        {
-            public ResultData(T _data) : base(true)
-            {
-                this.Data = _data;
-            }
-            public T Data { get; set; }
-        }
+        public bool Success { get; set; }
+        public object Data { get; set; }
     }
+}

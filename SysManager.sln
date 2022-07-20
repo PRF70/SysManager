@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{84BC1DC5-FA69-4B28-BCE4-DE4602F66749}"
+	ProjectSection(SolutionItems) = preProject
+		createDatabase.sql = createDatabase.sql
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SysManager.API.Admin", "SysManager.API.Admin\SysManager.API.Admin.csproj", "{83C2E887-6EB7-4E85-A292-BE3CE76FE05B}"
 EndProject

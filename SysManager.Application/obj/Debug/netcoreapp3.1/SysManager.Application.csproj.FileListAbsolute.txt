@@ -1,3 +1,4 @@
+E:\Estudo\SysManager\SysManager.Application\bin\Debug\netcoreapp3.1\appsettings.json
 E:\Estudo\SysManager\SysManager.Application\bin\Debug\netcoreapp3.1\SysManager.Application.deps.json
 E:\Estudo\SysManager\SysManager.Application\bin\Debug\netcoreapp3.1\SysManager.Application.dll
 E:\Estudo\SysManager\SysManager.Application\bin\Debug\netcoreapp3.1\SysManager.Application.pdb
